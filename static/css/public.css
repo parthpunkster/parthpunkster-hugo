@@ -1,0 +1,11 @@
+body, .prev, .next{
+	font-family: Helvetica, sans-serif;
+}
+
+.center-img img{
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+}

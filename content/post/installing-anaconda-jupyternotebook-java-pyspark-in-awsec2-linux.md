@@ -35,18 +35,17 @@ Keep clicking on **Next** until you reach **Configure Security group**. (We will
 - Under the Configure Security group, either create a new security group or select an existing one. 
 If creating a new security group then add the port 22 and port 8888 rules with source set to My IP.
 If selecting an existing one then make sure there are port 22 and port 8888 rules.
-  Click on **Review and Launch**.
+Click on **Review and Launch**.
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image3.png">
   </figure>
 
 - Click on **launch**, At this point, you should be prompted with some security key options. You can use an existing key or download a new one.
   Let’s assume you don’t have one yet. The PEM file is a key that AWS will check when you try to access (or SSH) into your EC2 instanc from
-  your local computer’s terminal.<br/><br/>Select the option to create a new one and give it an easy to remember name (all lower case with no spaces for ease of typing too). Download the PEM file and put it in an easy to reach location like your home folder. Now you can finally launch your EC2 instance by selecting Launch Instance.
+  your local computer’s terminal.<br/><br/>Select the option to create a new one and give it an easy to remember name (all lower case with no spaces for ease of typing too). <br/>Download the PEM file and put it in an easy to reach location like your home folder. <br/>Now you can finally launch your EC2 instance by selecting Launch Instance.
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image4.png">
   </figure>
-
 Click on the **instance Id** to navigate to instance which is launched
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image5.png">
@@ -99,14 +98,7 @@ wget https://repo.continuum.io/archive/Anaconda3-5.3.0-Linux-x86_64.sh
 ```
 bash Anaconda3-5.3.0-Linux-x86_64.sh
 ```
-After this there will be a bigger legal terms and condition text, keep **pressing enter**, until it asks you to **enter yes or no** for accepting the terms and condition, type **Yes and press enter**.
-
-Now **press enter** to install anaconda to **default location(Preferred)** or **type the location** where you want to install it.
-
-Now it will ask Do you wish the installer to initialize Anaconda3 in your **/home/ec2-user/.bashrc ? [yes|no]**
-Enter **Yes**
-Wait...Wait...Wait for installation to finish
-If you typed **yes** then goto **Step 5)**
+After this there will be a bigger legal terms and condition text, keep **pressing enter**, until it asks you to **enter yes or no** for accepting the terms and condition, type **Yes and press enter**.<br/>Now **press enter** to install anaconda to **default location(Preferred)** or **type the location** where you want to install it.<br/>Now it will ask Do you wish the installer to initialize Anaconda3 in your **/home/ec2-user/.bashrc ? [yes|no]**<br/>Enter **Yes**<br/>Wait...Wait...Wait for installation to finish.<br/>If you typed **yes** then goto **Step 5)**
 
 - You will have to manually enter the path to **.bashrc** file.
 Run the following commands:

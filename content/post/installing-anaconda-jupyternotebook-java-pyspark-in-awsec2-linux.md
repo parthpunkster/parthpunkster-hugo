@@ -59,7 +59,6 @@ Then in source select **My IP** for **TCP and Port 8888** and also for **TCP and
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image7.png">
   </figure>
-
 Navigate back to instances and to the newly launched instance.
 
 ## Step 3) SSH into the instance (Connect the device terminal to the AWS terminal)
@@ -67,7 +66,6 @@ Click on **Connect** and it will open up a dialogue box from that copy the last 
 ```
 ssh -i "tutorialexample.pem" ec2-user@ec2-54-144-47-199.compute-1.amazonaws.com
 ```
-
 This assumes your PEM file is in the same directly as your present working directory (type “pwd” into your terminal if you’re unsure what your present working directory is). Also you’ll need to type in your own user@ec2-instance address. If you’ve been following my steps so far the user is “ec2-user” (this is the default) and the address after “@” is your instance’s Public DNS (IPv4) address which you can view by selecting your instance (see screenshot below). If you get an error that your PEM file is not publicly viewable, you made need to execute this command:
 ```
 chmod 400 tutorialexample.pem
@@ -75,12 +73,10 @@ chmod 400 tutorialexample.pem
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image8.png">
   </figure>
-
 Once you execute the SSH command, you’ll be prompted with a yes/no question. Type yes and you should be SSH-ed into your instance! (see screenshot below).
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image9.png">
   </figure>
-
 Congratulation you have now successfully create a Linux AWS EC2 instance.
 Now  run the following command to update the OS libraries
 ```
@@ -122,11 +118,9 @@ Then type
 ```
 source .bashrc
 ```
-
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image10.png">
   </figure>
-
 Now if you type 
 ```
 python
@@ -232,20 +226,15 @@ https://(Your AWS machines public DNS over here):8888/
 ```
 **E.g : https://ec2-54-144-47-199.compute-1.amazonaws.com:8888/**
 Then click on **Proceed** to Show Advanced Security and then click on the **link** at the bottom.
-
-
-
-Press ESC and then type :wq
+Press ESC and then type **:wq**
 It should look something like this
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image15.png">
   </figure>
-
 Next you’ll see the password protection screen for Jupyter. Just type in the actual password you chose in Step 9 (not the SHA hash)
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image16.png">
   </figure>
-
 Click **Log In** and you’re ready to create and run your own notebooks on Jupyter!
 
 Woohooooo you have successfully installed and launched jupyter notebook

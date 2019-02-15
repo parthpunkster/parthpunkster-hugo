@@ -42,7 +42,7 @@ If selecting an existing one then make sure there are port 22 and port 8888 rule
 
 - Click on **launch**, At this point, you should be prompted with some security key options. You can use an existing key or download a new one.
   Let’s assume you don’t have one yet. The PEM file is a key that AWS will check when you try to access (or SSH) into your EC2 instanc from
-  your local computer’s terminal.<br/>Select the option to create a new one and give it an easy to remember name (all lower case with no spaces for ease of typing too). Download the PEM file and put it in an easy to reach location like your home folder. Now you can finally launch your EC2 instance by selecting Launch Instance.
+  your local computer’s terminal.<br/><br/>Select the option to create a new one and give it an easy to remember name (all lower case with no spaces for ease of typing too). Download the PEM file and put it in an easy to reach location like your home folder. Now you can finally launch your EC2 instance by selecting Launch Instance.
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image4.png">
   </figure>

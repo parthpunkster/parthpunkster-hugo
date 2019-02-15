@@ -1,6 +1,6 @@
 baseurl = "https://parthpunkster.github.io/"
-title = "Dora's world"
-author = "Shubham Jain"
+title = "UnSchooled Coder"
+author = "Parth Jain"
 theme = "blackburn"
 # Shown in the side menu
 copyright = "&copy; 2016. All rights reserved."
@@ -14,9 +14,9 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "A peek into my life"
-  brand = "S.J."
-  googleAnalytics = "UA-87937727-1"
-  disqus = "shubhamjain0594-github-io"
+  brand = "P.J."
+  # googleAnalytics = "UA-87937727-1"
+  disqus = "parthpunkster-github-io"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
@@ -45,12 +45,12 @@ paginate = 10
     weight = 2
     identifier = "about"
     url = "/about/"
-  [[menu.main]]
-      name = "My Travels"
-      pre = "<i class='fa fa-plane fa-fw'></i>"
-      weight = 2
-      identifier = "travel"
-      url = "/travel/"
+#  [[menu.main]]
+#      name = "My Travels"
+#      pre = "<i class='fa fa-plane fa-fw'></i>"
+#      weight = 2
+#      identifier = "travel"
+#      url = "/travel/"
   [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
@@ -72,10 +72,10 @@ paginate = 10
   # by entering your username or ID.
 
   # SNS microblogging
-  twitter = "shubhamjain0594"
+  twitter = "parthjain8"
   # gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
   # facebook = "*"
-  googleplus = "ShubhamJain0594"
+  # googleplus = "ShubhamJain0594"
   # weibo = "*"
 
   # SNS photo/video sharing
@@ -88,17 +88,17 @@ paginate = 10
   # slideshare = "*"
 
   # SNS career oriented
-  linkedin = "shubham-jain-b1356962"
+  linkedin = "parth-jain-8a09abb6"
   # xing = "*"
 
   # SNS news
-  reddit = "shubhamjain0594"
-  hackernews = "shubhamjain0594"
+  # reddit = "shubhamjain0594"
+  # hackernews = "shubhamjain0594"
 
   # Techie
-  github = "shubhamjain0594"
-  bitbucket = "shubham_jain"
-  stackoverflow = "shubhamjain094"
+  github = "parthpunkster"
+  # bitbucket = "shubham_jain"
+  # stackoverflow = "shubhamjain094"
   # serverfault = "*"
 
   # Gaming

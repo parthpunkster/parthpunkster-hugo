@@ -22,3 +22,12 @@ git push origin master
 
 # Come Back
 cd ..
+
+# Add changes to git repo parthpunkster-hugo.
+git add -A
+
+# Commit changes.
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master

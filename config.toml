@@ -13,7 +13,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "Stack<Experiences> MyLife = new Stack<Experiences>();\nMyLife.peek();"
+  subtitle = "Stack<Experiences> MyLife = new Stack<Experiences>();MyLife.peek();"
   brand = "P.J."
   # googleAnalytics = "UA-87937727-1"
   disqus = "parthpunkster-github-io"

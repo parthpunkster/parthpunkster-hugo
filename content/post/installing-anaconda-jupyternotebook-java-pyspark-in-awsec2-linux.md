@@ -55,7 +55,6 @@ Click on the **instance Id** to navigate to instance which is launched
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image6.png">
   </figure>
-
 Then in source select **My IP** for **TCP and Port 8888** and also for **TCP and port 22**.
   <figure>
       <img style="width:100%;" src="/img/post/installing-anaconda-jupyternotebook-java-pyspark-in-awsec2-linux/image7.png">

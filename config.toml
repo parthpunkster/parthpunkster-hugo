@@ -1,6 +1,7 @@
 baseurl = "https://parthpunkster.github.io/"
 title = "Dora's world"
 author = "Shubham Jain"
+theme = "blackburn"
 # Shown in the side menu
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true

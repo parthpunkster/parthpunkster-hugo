@@ -1,5 +1,5 @@
 baseurl = "https://parthpunkster.github.io/"
-title = "UnSchooled Coder"
+title = "UnSchooled Coder \ asdh"
 author = "Parth Jain"
 theme = "blackburn"
 # Shown in the side menu
@@ -13,7 +13,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "Stack<Experiences> MyLife = new Stack<Experiences>();           MyLife.peek();"
+  subtitle = "Stack<Experiences> MyLife = new Stack<Experiences>(); MyLife.peek();"
   brand = "P.J."
   # googleAnalytics = "UA-87937727-1"
   disqus = "parthpunkster-github-io"

@@ -15,7 +15,7 @@ paginate = 10
   # Shown in the home page
   subtitle = "Stack<Experiences> MyLife = new Stack<Experiences>(); MyLife.peek();"
   brand = "P.J."
-  # googleAnalytics = "UA-87937727-1"
+  googleAnalytics = "UA-134609207-1"
   disqus = "parthpunkster-github-io"
   # CSS name for highlight.js
   highlightjs = "androidstudio"

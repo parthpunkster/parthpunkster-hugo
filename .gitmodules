@@ -2,6 +2,3 @@
 	path = public
 	url = git@github.com:parthpunkster/parthpunkster.github.io.git
 	branch = master
-[submodule "blackburn"]
-	path = blackburn
-	url = https://github.com/yoshiharuyamashita/blackburn.git
